@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap);
 @charset "UTF-8";
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -36,7 +37,7 @@ table {
 
 .banner {
   background-image: url(6dc39b808295322ea3a0a1694b4f6346.jpg);
-  height: 700px;
+  height: 680px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -101,7 +102,7 @@ table {
       font-family: "Roboto", sans-serif;
       text-transform: uppercase;
       font-weight: 700;
-      color: #999999;
+      color: #000000;
       transition: 0.3s;
       cursor: pointer; }
     .nav__menu :hover {
@@ -122,8 +123,7 @@ table {
         justify-content: center;
         z-index: 20;
         cursor: pointer;
-        border-left: none;
-        color: #999999; }
+        border-left: none; }
       .nav__menu--search input {
         font-family: "Roboto", sans-serif;
         z-index: -5;
@@ -136,6 +136,127 @@ table {
         font-size: 1rem;
         line-height: 1.8;
         padding-left: 0.8em; }
+
+.fa-search {
+  color: #999999; }
+
+.skills {
+  background-color: #333129;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .skills__wrapper {
+    position: relative;
+    width: 1080px; }
+  .skills__container {
+    background-position: 50% 35%;
+    background-image: url(97a8ce683db831aa4ce863edcc1b2812.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 73%;
+    min-height: 800px; }
+  .skills__line {
+    padding: 0 20px;
+    width: 27%;
+    height: 100%;
+    position: absolute;
+    left: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff; }
+    .skills__line--box:first-child {
+      margin-top: 20px; }
+    .skills__line--box {
+      margin-top: 10px;
+      width: 100%;
+      min-height: 30%;
+      max-height: 33%; }
+    .skills__line--title {
+      padding: 20px 0;
+      font-family: 'Open Sans', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+      font-size: 1.25rem; }
+    .skills__line--icon {
+      padding: 10px;
+      opacity: 0.5;
+      font-size: 2rem;
+      color: #808080; }
+    .skills__line--descr {
+      line-height: 1.6;
+      font-family: 'Open Sans', sans-serif;
+      color: #808080; }
+
+.solution {
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  font-family: "Open Sans", sans-serif; }
+  .solution__wrapper:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end; }
+  .solution__wrapper {
+    width: 50%; }
+  .solution__subtitle {
+    color: #111111;
+    margin-top: 70px;
+    font-size: 16px;
+    line-height: 1.8; }
+  .solution__title {
+    cursor: pointer;
+    margin-top: 20px;
+    border-style: solid;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block; }
+    .solution__title::before {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      height: 5px;
+      width: 100%;
+      background-color: black; }
+  .solution__underheader {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.25rem; }
+  .solution__header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    margin-bottom: 5%;
+    margin-right: 10%; }
+  .solution__content {
+    font-size: 16px;
+    display: flex;
+    margin-top: 100px; }
+    .solution__content--box {
+      width: 50%; }
+    .solution__content--title {
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 3rem; }
+    .solution__content--subtitle {
+      margin: 20px 0;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 2px;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .solution__content--descr {
+      margin-bottom: 20px;
+      font-size: 1rem;
+      line-height: 1.6; }
 
 /* clears the ‘X’ from Internet Explorer */
 input[type=search]::-ms-clear {
