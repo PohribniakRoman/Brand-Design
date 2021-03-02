@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap'); //font-family: 'Allan', cursive;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); // font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap'); // font-family: 'Open Sans', sans-serif;
 @import 'reset';
 @import 'banner';
+@import 'skills';
+@import 'solution';
 
 /* clears the ‘X’ from Internet Explorer */
 input[type=search]::-ms-clear { display: none; width : 0; height: 0; }

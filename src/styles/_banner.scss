@@ -1,6 +1,6 @@
 .banner {
     background-image: url("../images/banner-bg.jpg");
-    height: 700px;
+    height: 680px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@
             font-family: "Roboto", sans-serif;
             text-transform: uppercase;
             font-weight: 700;
-            color: #999999;
+            color: #000000;
             transition: 0.3s;
             cursor: pointer;
         }
@@ -98,7 +98,6 @@
                 z-index: 20;
                 cursor: pointer;
                 border-left: none;
-                color: #999999;
             }
             & input {
                 font-family: "Roboto", sans-serif;
@@ -112,7 +111,10 @@
                 font-size: 1rem;
                 line-height: 1.8;
                 padding-left: 0.8em;
-            }
+            } 
         }
     }
+}
+.fa-search{
+    color: #999999;
 }
