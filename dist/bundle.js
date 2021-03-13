@@ -94,7 +94,18 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.scss */ \"./styles/index.scss\");\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/index.scss */ \"./styles/index.scss\");\n/* harmony import */ var _scripts_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/slider */ \"./scripts/slider.js\");\n/* harmony import */ var _scripts_slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scripts_slider__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n// js\r\n\r\n\n\n//# sourceURL=webpack:///./index.js?");
+
+/***/ }),
+
+/***/ "./scripts/slider.js":
+/*!***************************!*\
+  !*** ./scripts/slider.js ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const controls = {\r\n    left:document.querySelector(\".slider__control--left\"),\r\n    right:document.querySelector(\".slider__control--right\"),\r\n    index:0\r\n}\r\nconst slider = [...document.querySelectorAll(\".slider__container\")];\r\n\r\n//logic\r\n\r\ncontrols.left.addEventListener(\"click\",()=>{\r\n    if(controls.index === 0){\r\n        slider[controls.index].classList.add(\"hidden\");\r\n        slider[slider.length -1].classList.remove(\"hidden\");\r\n        controls.index = slider.length -1;\r\n    }else{\r\n        slider[controls.index].classList.add(\"hidden\");\r\n        slider[controls.index -1].classList.remove(\"hidden\");\r\n        controls.index--;\r\n    }\r\n})\r\ncontrols.right.addEventListener(\"click\",()=>{\r\n    if(controls.index === slider.length - 1){\r\n        slider[controls.index].classList.add(\"hidden\");\r\n        slider[0].classList.remove(\"hidden\");\r\n        controls.index = 0;\r\n    }else{\r\n        slider[controls.index].classList.add(\"hidden\");\r\n        slider[controls.index +1].classList.remove(\"hidden\");\r\n        controls.index++;\r\n    }\r\n})\n\n//# sourceURL=webpack:///./scripts/slider.js?");
 
 /***/ }),
 
