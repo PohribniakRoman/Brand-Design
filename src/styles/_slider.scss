@@ -3,12 +3,13 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    overflow: hidden;
     &__container{
         font-family: 'Open Sans', sans-serif;
         margin: 0 auto;
-        width: 1140px;
+        min-width: 100%;
         display: flex;
+        transition: .7s;
         justify-content: center;
         flex-direction: column;
         text-align: center;
@@ -23,7 +24,7 @@
         }
         &--descr{
             margin: 0 auto;
-            width: 70%;
+            width: 40%;
             font-size: 16px;
             line-height: 2;
             font-weight: 400;
@@ -68,7 +69,4 @@
             color: rgba($color: #888888, $alpha: 1.0);
         }
     }
-}
-.hidden{
-    display: none;
 }
