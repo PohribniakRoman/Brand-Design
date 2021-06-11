@@ -1,5 +1,6 @@
 .banner {
     background-image: url("../images/banner-bg.jpg");
+    height: 68vh;
     height: 680px;
     background-position: center;
     background-size: cover;
@@ -20,13 +21,14 @@
     }
     &__subtitle {
         font-family: "Roboto", sans-serif;
-        letter-spacing: 12px;
-        font-size: 1.875rem;
+        letter-spacing: 0.1vw;
+        font-size:1.3vw;
         text-transform: uppercase;
         font-weight: 100;
-        margin-bottom: 20px;
+        margin-bottom: 1vw;
     }
     &__descr {
+        font-size: 0.9vw;
         & > a {
             color: #478ac9;
             text-decoration: none;
@@ -35,7 +37,7 @@
         :hover {
             color: rgb(25, 104, 136)
         }
-        margin-top: 20px;
+        margin-top: 1vw;
         font-family: "Roboto", sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -45,7 +47,8 @@
         font-family: "Roboto", sans-serif;
         text-transform: uppercase;
         font-weight: 900;
-        font-size: 8.125rem;
+        margin-left: -0.3vw;
+        font-size: 7vw;
         line-height: 0.8;
     }
 }
@@ -56,11 +59,11 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 1140px;
+        width: 70%;
     }
     &__logo {
         cursor: context-menu;
-        color: #aaa9a9;
+        color: black;
         font-family: "Allan", bold;
         font-size: 3vw;
     }
@@ -68,9 +71,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 0;
+        padding: 0.2vw 0;
         &--tab {
-            padding: 10px 20px;
+            padding: 1vw 2vw;
             font-family: "Roboto", sans-serif;
             text-transform: uppercase;
             font-weight: 700;
