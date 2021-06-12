@@ -13,10 +13,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 73%;
-        min-height: 800px;
+        height: 80vh;
     }
     &__line{
-        padding:0 20px;
+        padding:0 1vw;
         width: 27%;
         height: 100%;
         position: absolute;
@@ -27,32 +27,33 @@
         flex-direction:column;
         background-color: #fff;
         &--box:first-child{
-            margin-top: 20px;
+            margin-top: 1vw;
         }
         &--box{
-            margin-top: 10px;
+            margin-top: 1vw;
             width: 100%;
             min-height: 30%;
             max-height: 33%;
         }
         &--title{
-            padding: 20px 0;
+            padding: 1vw 0;
             font-family: 'Open Sans', sans-serif;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 0.2vw;
             font-weight: 700;
-            font-size: 1.25rem;
+            font-size: 1.25vw;
         }
         &--icon{
-            padding: 10px;
+            padding: 0.5vw;
             opacity: 0.5;
-            font-size: 2rem;
+            font-size: 2vw;
             color:#808080;
         }
         &--descr{
             line-height: 1.6;
             font-family: 'Open Sans', sans-serif;
-            color: #808080
+            color: #808080;
+            font-size:1vw;
         }
     }
 }

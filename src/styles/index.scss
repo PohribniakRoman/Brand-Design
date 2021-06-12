@@ -21,3 +21,14 @@ a{
     text-decoration: none;
     color: unset;
 }
+@media (max-width:1000px){
+    .nav__container{
+        display: block;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .nav__logo {
+        text-align: center;
+    }
+}

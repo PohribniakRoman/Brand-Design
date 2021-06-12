@@ -1,7 +1,7 @@
 .solution {
     width: 70%;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 10vh;
     display: flex;
     font-family: "Open Sans", sans-serif;
     &__wrapper:first-child {
@@ -15,16 +15,16 @@
     }
     &__subtitle {
         color: #111111;
-        margin-top: 70px;
-        font-size: 16px;
+        margin-top: 7vh;
+        font-size: 1vw;
         line-height: 1.8;
     }
     &__title {
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 2vh;
         border-style: solid;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 0.3vw;
         position: relative;
         display: inline-block;
         &::before {
@@ -38,42 +38,42 @@
     }
     &__underheader {
         font-family: "Roboto", sans-serif;
-        letter-spacing: 12px;
+        letter-spacing: 0.8vw;
         text-transform: uppercase;
         font-weight: 100;
-        font-size: 1.25rem;
+        font-size: 1vw;
     }
     &__header {
         font-family: "Roboto", sans-serif;
         font-weight: 900;
         text-transform: uppercase;
-        font-size: 4.5rem;
+        font-size: 4vw;
         margin-bottom: 5%;
         margin-right: 10%;
     }
     &__content {
-        font-size: 16px;
+        font-size: 1.6vw;
         display: flex;
-        margin-top: 100px;
+        margin-top:10vh;
         &--box {
             width: 50%;
         }
         &--title {
             font-family: "Roboto", sans-serif;
             font-weight: 900;
-            font-size: 3rem;
+            font-size:3vw;
         }
         &--subtitle {
-            margin: 20px 0;
+            margin: 1vw 0;
             font-family: "Open Sans", sans-serif;
-            letter-spacing: 2px;
-            font-size: 1.3rem;
+            letter-spacing: 0.1vw;
+            font-size: 1.3vw;
             text-transform: uppercase;
             font-weight: bold;
         }
         &--descr {
             margin-bottom: 20px;
-            font-size: 1rem;
+            font-size: 1vw;
             line-height: 1.6;
         }
     }
